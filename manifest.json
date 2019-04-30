@@ -1,0 +1,21 @@
+{
+  "name": "NZ Herald Premium",
+  "manifest_version": 2,
+  "description": "Toggles Premium content",
+  "version": "1.0",
+  "homepage_url": "https://github.com/marcus-crane/herald-premium",
+  "content_scripts": [
+    {
+      "matches": ["https://www.nzherald.co.nz/*"],
+      "js": ["herald.js"]
+    }
+  ],
+  "permissions": [
+    "https://www.nzherald.co.nz/*",
+    "activeTab"
+  ],
+  "background": {
+  	"scripts": ["background.js"]
+  },
+  "browser_action": {}
+}

@@ -1,0 +1,16 @@
+{
+  "name": "herald-premium",
+  "version": "1.0.0",
+  "description": "An extension for showing repo creation dates",
+  "main": "background.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcus-crane/herald-premium.git"
+  },
+  "author": "Marcus Crane <marcus@utf9k.net>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/marcus-crane/herald-premium/issues"
+  },
+  "homepage": "https://github.com/marcus-crane/herald-premium#readme"
+}
