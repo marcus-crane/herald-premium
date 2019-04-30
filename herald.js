@@ -1,6 +1,4 @@
 (function() {
-  let article = document.getElementById("article-content")
-  if (article) {
-    document.getElementById("article-content").className = "content";
-  }
-})()
+  const article = document.getElementById("article-content");
+  if (article) { article.className = "content"; }
+})();
